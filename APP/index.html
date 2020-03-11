@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>App</title>
+	<link href="css/f7-icons.css" rel="stylesheet">
+	<link href="css/framework7.min.css" rel="stylesheet">
+	<link href="css/material-icons.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner">
+				<div class="left"><a href="#" class="link"><em class="material-icons">menu</em></a></div>
+              <div class="title">Menu</div>
+            </div>
+          </nav>
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+            
+			  <!--<h2 class="block-title">Titulo de Contenido</h2>
+			  <div class="block block-strong">
+			  <p>Texto de Contenido</p>
+			  </div>--> 
+            <!-- Link to another page -->
+           <article class="menu bg-coffee">
+			   <a href="/coffee/">
+			   <div class="overlay"></div>
+			   <div class="texto">
+			  <h2>Coffee</h2>
+			   <p> Freshly brewed coffee</p>
+				   </div>
+				   </a>
+			  </article>
+			  <article class="menu bg-breakfast">
+			   <div class="overlay"></div>
+			   <div class="texto">
+			  <h2>Breakfast</h2>
+			   <p> Perfectly bakes and served warm
+</p>
+				   </div>
+			  </article>
+			  <article class="menu bg-munchies">
+			   <div class="overlay"></div>
+			   <div class="texto">
+			  <h2>Munchies</h2>
+			   <p> Perfectly bakes and served warm</p>
+				   </div>
+			  </article>
+			  <article class="menu bg-sandwiches">
+			   <div class="overlay"></div>
+			   <div class="texto">
+			  <h2>Sandwiches</h2>
+			   <p> Fresh, healthy and tasty</p>
+				   </div>
+			  </article>
+			  <article class="menu bg-drinks">
+				  <a href="/drinks/">
+			   <div class="overlay"></div>
+			   <div class="texto">
+			  <h2>Specialty Drinks</h2>
+			   <p> Special Drinks for every taste</p>
+				   </div>
+					  </a>
+			  </article>
+          </div>
+        </section>
+      </div>
+    </div>
+	<script src="js/framework7.min.js"></script>
+	<script src="js/my-app.js"></script>
+</body>
+</html>
